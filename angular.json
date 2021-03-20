@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-wc-simple"
+    }
+  },
+  "defaultProject": "ng-wc-simple",
+  "cli": {
+    "analytics": false
+  }
 }
