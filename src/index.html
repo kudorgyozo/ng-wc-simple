@@ -10,7 +10,23 @@
 </head>
 
 <body>
-    <app-root></app-root>
+    <script>
+
+    </script>
+    <app-root id='counter' counter='44'></app-root>
+
+    <script>
+        const counter = document.getElementById('counter');
+        counter.addEventListener('countChanged', (e) => {
+            console.log(e);
+            console.log(e.detail);
+        });
+    </script>
+
+    <script>
+
+
+    </script>
 </body>
 
 </html>
