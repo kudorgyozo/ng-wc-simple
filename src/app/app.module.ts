@@ -22,7 +22,7 @@ export class AppModule {
             injector: this.injector,
         });
  
-        customElements.define(`app-root`, ngElement);
+        customElements.define(`counter-wc`, ngElement);
 
     }
 }

@@ -1,0 +1,7 @@
+//@use '../styles.scss' as *;
+
+//example of using css variables
+:host {
+  display: block;
+  background-color: var(--background);
+}

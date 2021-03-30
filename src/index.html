@@ -7,13 +7,15 @@
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        :root {
+            --background: #e9e9e9;
+        }
+    </style>
 </head>
 
 <body>
-    <script>
-
-    </script>
-    <app-root id='counter' counter='44'></app-root>
+    <counter-wc id='counter' counter='44'></counter-wc>
 
     <script>
         const counter = document.getElementById('counter');
@@ -21,11 +23,6 @@
             console.log(e);
             console.log(e.detail);
         });
-    </script>
-
-    <script>
-
-
     </script>
 </body>
 
